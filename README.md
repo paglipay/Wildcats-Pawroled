@@ -33,7 +33,7 @@
 - 7. Delete a post you made in the past 
 - 8. Redemption feature for pets who have changed their ways
 - 9. View all of the offenses for silly pets in the Offense Directory
-- 10.Tweet about a particularly delinquent pet directly from the site(by leveraging the twitter api: https://rapidapi.com/socialminer/api/twitter32/)
+- 10. Tweet about a particularly delinquent pet directly from the site(by leveraging the twitter api: https://rapidapi.com/socialminer/api/twitter32/)
 
 
 ## Reach Goals:

@@ -19,6 +19,6 @@
 - 9. View the list of all of your followers(make an ArrayList or something an attribute for each user, so that each app user can identify all of their followers)
 - 10. Tweet about a particularly delinquent pet directly from the site(by leveraging the twitter api and connecting accounts, what do you think? too ambitious?)
 
-##Suggested Bonus Goal: 
+## Suggested Bonus Goal: 
 
 - Create your UI application using React (Can deploy using Azure App Services)

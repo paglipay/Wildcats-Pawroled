@@ -19,6 +19,19 @@
 - 9. View the list of all of your followers(make an ArrayList or something an attribute for each user, so that each app user can identify all of their followers)
 - 10. Tweet about a particularly delinquent pet directly from the site(by leveraging the twitter api and connecting accounts, what do you think? too ambitious?)
 
-## Suggested Bonus Goal: 
+## Reach Goals:
 
-- Create your UI application using React (Can deploy using Azure App Services)
+- Follow other pet owners
+- Unfollow accounts
+- View the list of all of your followers(make an ArrayList or something an attribute for each user, so that each app user can identify all of their followers)
+
+## Suggested Bonus Goal Idea: 
+
+-Create your UI application using React (Can deploy using Azure App Services)
+
+## Tools leveraged:
+
+- We will deploy our database to Azure cloud computing services
+- Our CI/CD pipeline will be created with Azure DevOps.
+- We will create our user interface using React, Bootstrap, HTML, and CSS.
+

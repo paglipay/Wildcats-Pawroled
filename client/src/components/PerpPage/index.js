@@ -11,42 +11,50 @@ function PerpPage() {
         [
             { "src": "images (5).png" },
             { "src": "images (3).png" },
-            { "src": "images (4).png" }
+            { "src": "images (4).png" },
+            { "src": "images (10).png" },
+            { "src": "images (11).png" },
+            { "src": "download (1).png" }
         ]
     );
 
     return (
         <>
-            <Container className="perppageContainer" fluid>
-                <Row>
-                    <Col>
-                        <LeftLayout />
-                    </Col>
-                    <Col>
-                        <RightLayout />
-                    </Col>
-                </Row>
-            </Container>
             <img src="sample11-a.png" style={{ "width": '100%' }} />
 
             {/* <img src="sample2.png" style={{ "width": '100%' }} />
-            <img src="sample3.png" style={{ "width": '100%' }} /> */}
+        <img src="sample3.png" style={{ "width": '100%' }} /> */}
+            <Container className="perppageContainer" fluid>
+                {data && data.map(e => (<>
+                    <Row>
+                        <Col>
+                            <LeftLayout data={e} />
+                        </Col>
+                        <Col>
+                            <RightLayout />
+                        </Col>
+                    </Row>
+                    <br />
+                </>
 
+                ))}
+
+
+            </Container>
             <table>
-                <tr>
-                    <td>
-                        <WantedPoster data={data[0]} />
-                        <WPModal poster={
-                            <img src="sample11-a.png" style={{ "width": '100%' }} />} />
-                        <WPModal poster={<img src="sample11.png" style={{ "width": '50%' }} />} />
-                    </td>
-                    {/* <td>
-                        <WantedPoster data={data[1]} />
-                    </td>
-                    <td>
-                        <WantedPoster data={data[2]} />
-                    </td> */}
-                </tr>
+                {data && data.map(e => (<>
+                    <tr>
+                        <td>
+                            <WantedPoster data={e} />
+                            {/* <WPModal poster={
+                                <img src="sample11-a.png" style={{ "width": '100%' }} />} />
+                            <WPModal poster={<img src="sample11.png" style={{ "width": '50%' }} />} /> */}
+                        </td>
+                    </tr>
+                </>
+                )
+                )}
+
             </table>
         </>
     )

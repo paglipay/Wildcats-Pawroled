@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Container, Row, Col, Table, Image } from 'react-bootstrap'
 import PerpStats from './PerpStats/PerpStats';
 
-function LeftLayout() {
+function LeftLayout(props) {
     const [data, setData] = useState([
         {
             "id": "1",
@@ -28,7 +28,7 @@ function LeftLayout() {
                                     </tr>
                                     <tr>
                                         <td>
-                                            <Image src='images (5).png' style={{ height: 500 }} wrapped ui={false} />
+                                            <Image src={props.data.src} style={{ height: 500 }} wrapped ui={false} />
                                             <Table  striped bordered hover variant="dark">
                                                 <thead>
                                                     <tr>

@@ -17,6 +17,10 @@ function App() {
               <Container >
                 <Row>
                   <Col>
+                    <img src={logo} className="App-logo" alt="logo" />
+                  </Col>
+                  <Col>
+
                     <Table style={{ height: '100%', color: 'white' }}>
                       <tr style={{ height: '100%' }}>
                         <td>
@@ -30,22 +34,13 @@ function App() {
                         </td>
                       </tr>
                     </Table>
-                  </Col></Row>
+                  </Col>
+                </Row>
               </Container>
               {/* <NavTabs
           // authenticated={authenticated}
           // logout={logout}
         /> */}
-
-              <img src={logo} className="App-logo" alt="logo" />
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Learn React
-              </a>
             </header>
 
           </Route>

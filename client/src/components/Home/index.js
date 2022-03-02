@@ -24,7 +24,7 @@ function Home() {
 
                 <Carousel.Caption>
                     <h3 style={{ textAlign: 'left', fontSize: '35px' }}>The Paw-Leashed Department (PLD)</h3>
-                    <p style={{ textAlign: 'left' }}>If you can not afford one, one will be appointed to you by a deputy</p>
+                    <p style={{ textAlign: 'left', width:600 }}>If you can not afford one, one will be appointed to you by a deputy</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

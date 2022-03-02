@@ -14,7 +14,10 @@ function PerpPage() {
             { "src": "images (4).png" },
             { "src": "images (10).png" },
             { "src": "images (11).png" },
-            { "src": "download (1).png" }
+            { "src": "download (1).png" },
+            { "src": "images (a).png" },
+            { "src": "images (b).png" },
+            { "src": "images (c).png" }
         ]
     );
 

@@ -8,9 +8,9 @@ function NavTabs(
 
     return (
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark"  sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home">Paw-Roled</Navbar.Brand>
+                    <Navbar.Brand href="/"><h1>Paw-Roled</h1></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/perppage">Features</Nav.Link>

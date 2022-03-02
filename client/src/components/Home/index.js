@@ -12,7 +12,7 @@ function Home() {
                 />
                 <Carousel.Caption>
                     <h3 style={{ fontSize: '35px' }}>You have the right to remain adorable</h3>
-                    <p>But if you fail to be adorable by doing something "naughty",</p>
+                    <p>But if you give up that right to be adorable, by doing something "naughty",</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -23,7 +23,7 @@ function Home() {
                 />
 
                 <Carousel.Caption>
-                    <h3 style={{ textAlign: 'left', fontSize: '35px' }}>The Paw-Leashed Department (PLD)</h3>
+                    <h3 style={{ textAlign: 'left', fontSize: '35px' }}>The PAW-Leashed Department (PLD)</h3>
                     <p style={{ textAlign: 'left', width:600 }}>We will look for you. We will find you. We will embarrass you. - Liam Neeson</p>
                     
                 </Carousel.Caption>
@@ -87,6 +87,7 @@ function Home() {
                 </Row>
             </Container>
         </section>
+        <div id="footer" ></div>
         
     </>
     )

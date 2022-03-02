@@ -3,7 +3,7 @@ import './WantedPoster.css'
 
 function WantedPoster(props) {
   return (
-    <div style={{ backgroundColor: 'black', width: '800px', padding:'10px' }}>
+    <div style={{ backgroundColor: 'black', width: '800px', padding: '10px' }}>
       <h1 style={{ color: 'red', fontSize: 150 }}>WANTED</h1>
       <h3 style={{ color: 'white', fontSize: 50 }}>NIKOLAI ONDREJKO</h3>
       <span style={{ textAlign: 'center' }}>
@@ -43,8 +43,16 @@ function WantedPoster(props) {
       <h1 style={{ color: 'red', fontSize: 80 }}>CALL 555-555-5555</h1>
 
       <h1 style={{ color: 'red', fontSize: 40 }}>ARMED AND DANGEROUS</h1>
-      <h3 style={{ color: 'white', fontSize: 25, width: '50%', textAlign: 'left', margin:15 }}>NIKOLAI ONDREJKO is wanted by PLD (The Paw-Leash Department) for things...TBD</h3>
-      <p style={{ color: 'white', fontSize: 20, width: '50%', textAlign: 'left' }}>NIKOLAI ONDREJKO is wanted by PLD (The Paw-Leash Department) for things...TBD</p>
+      <table>
+        <tr>
+          <td>
+            <h3 style={{ color: 'white', fontSize: 25, width: '100%', textAlign: 'left', margin: 15 }}>NIKOLAI ONDREJKO is wanted by PLD (The Paw-Leashed Department) for things...TBD</h3>
+            <p style={{ color: 'white', fontSize: 20, width: '100%', textAlign: 'left' }}>NIKOLAI ONDREJKO is wanted by PLD (The Paw-Leashed Department) for things...TBD</p> </td>
+          <td>
+            <img src={"badges.png"} />
+          </td>
+        </tr>
+      </table>
     </div >
   )
 }

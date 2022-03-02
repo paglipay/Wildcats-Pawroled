@@ -13,8 +13,8 @@ function NavTabs(
                     <Navbar.Brand href="/"><h1>Paw-Roled</h1></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/perppage">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="/perppage">Criminal Database</Nav.Link>
+                        <Nav.Link href="#pricing">About</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

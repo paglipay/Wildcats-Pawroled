@@ -23,10 +23,7 @@ function PerpPage() {
 
     return (
         <>
-            <img src="sample11-a.png" style={{ "width": '100%' }} />
-
-            {/* <img src="sample2.png" style={{ "width": '100%' }} />
-        <img src="sample3.png" style={{ "width": '100%' }} /> */}
+            {/* <img src="sample11-a.png" style={{ "width": '100%' }} /> */}
             <Container className="perppageContainer" fluid>
                 {data && data.map(e => (<>
                     <Row>

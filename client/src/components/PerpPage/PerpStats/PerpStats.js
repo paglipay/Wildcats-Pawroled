@@ -11,7 +11,7 @@ function PerpStats() {
     </tr>
       <tr>
         <td colSpan={4}>
-          <h6>Status: Armed and Dangerous</h6>
+          <h6>Alias: Diggle Berry Bandit</h6>
         </td>
       </tr>
       <tr>

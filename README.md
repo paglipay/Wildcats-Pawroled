@@ -5,7 +5,7 @@
 
 ## Project Name: Paw-roled:
 
-- DISCLAIMER: this is a humor site! this is meant to be taken as a joke, all pets all cherished and loved. 
+- DISCLAIMER: this is a humor site! this is meant to be taken as a joke, all pets are cherished and loved. 
 
 - Let us read you your miranda rights.
 
@@ -22,18 +22,18 @@
 
 
 ## As a Non-Authenticated User(user without an account), you can:
-- 1. Look at all of the posts that angry pet owners make about their naughty furry friends
+- 1. Look at all of the posts that pet owners make about their furry friends
 - 2. Look at the current list of the top 3(maybe 5) most mis-behaved pets
 
 ## As a Authenticated User(user with an account, who verifies identity):
-- 3. Make posts about their scoundrel pets, informing the world of the details of their disobedience
+- 3. Make posts about their silly pets, informing the world of the details of their disobedience
 - 4. Vote for the top 3(maybe 5) most defiant pets, of all of the available posts
 - 5. Print a certain offender's wanted post
 - 6. Update a post you made in the past about your scoundrel pet
 - 7. Delete a post you made in the past 
 - 8. Redemption feature for pets who have changed their ways
 - 9. View all of the offenses for silly pets in the Offense Directory
-- 10. Tweet about a particularly delinquent pet directly from the site(by leveraging the twitter api: https://rapidapi.com/socialminer/api/twitter32/)
+- 10. Tweet about a particularly naugty pet directly from the site(by leveraging the twitter api: https://rapidapi.com/socialminer/api/twitter32/)
 
 
 ## Reach Goals:

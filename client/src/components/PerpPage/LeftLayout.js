@@ -75,7 +75,7 @@ Advise: Approach with Caution`);
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style={{ textAlign: 'left' }}>                                        
+                                        <td style={{ textAlign: 'left', fontSize:14, backgroundColor:'#474747', color:'black', lineHeight: 1, padding:11 }}>                                        
                                             {/* <pre style={{ fontSize: 12, textAlign: 'left', backgroundColor: '#474747', lineHeight: 1}}> */}
                                                 {psychologicalProfile}
                                             {/* </pre> */}

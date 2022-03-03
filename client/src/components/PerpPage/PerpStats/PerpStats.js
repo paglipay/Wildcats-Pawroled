@@ -17,7 +17,7 @@ function PerpStats() {
       <tr>
         <td colSpan={2}>
           Dob
-          Feb 09, 1971
+          Feb 09, 2022
         </td>
         <td  colSpan={2} >
           LIC. CLASS

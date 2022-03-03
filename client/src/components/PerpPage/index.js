@@ -17,7 +17,15 @@ function PerpPage() {
             { "src": "download (1).png" },
             { "src": "images (a).png" },
             { "src": "images (b).png" },
-            { "src": "images (c).png" }
+            { "src": "images (c).png" },
+            { "src": "cat-with-attitude.png" },
+            { "src": "attitude-feat.png" },
+            { "src": "cat-4694065_960_720.png" },
+            { "src": "quy3t9tjvia61.png" },
+            { "src": "shutterstock_129390089_1.png" },
+            { "src": "grumpy_cat.png" }
+            
+            
         ]
     );
 
@@ -36,9 +44,7 @@ function PerpPage() {
                     </Row>
                     <br />
                 </>
-
                 ))}
-
 
             </Container>
             <table>

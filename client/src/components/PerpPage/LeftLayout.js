@@ -67,7 +67,6 @@ Advise: Approach with Caution`);
                             </Col>
                             <Col>
                                 <PerpStats />
-
                                 <Table variant="dark" style={{ color: 'white' }}>
                                     <tr>
                                         <td>
@@ -75,7 +74,7 @@ Advise: Approach with Caution`);
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style={{ textAlign: 'left', fontSize:14, backgroundColor:'#474747', color:'black', lineHeight: 1, padding:11 }}>                                        
+                                        <td style={{ textAlign: 'left', fontSize:14, backgroundColor:'gray', color:'black', lineHeight: 1, padding:11 }}>                                        
                                             {/* <pre style={{ fontSize: 12, textAlign: 'left', backgroundColor: '#474747', lineHeight: 1}}> */}
                                                 {psychologicalProfile}
                                             {/* </pre> */}

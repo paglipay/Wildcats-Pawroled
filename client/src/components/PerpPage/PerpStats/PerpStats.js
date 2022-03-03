@@ -3,15 +3,15 @@ import { Table } from 'react-bootstrap';
 
 function PerpStats() {
   return (
-    <Table style={{ color: 'white', textAlign:'left' }}>
-    <tr>
-      <td colSpan={4}>
-        <h3>NIKOLAI ONDREJKO</h3>
-      </td>
-    </tr>
+    <Table style={{ color: 'white', textAlign: 'left' }}>
       <tr>
         <td colSpan={4}>
-          <h6>Alias: Dinggle Berry Bandit</h6>
+          <h3>NIKOLAI ONDREJKO</h3>
+        </td>
+      </tr>
+      <tr>
+        <td colSpan={4}>
+          <h6>Alias: Dinggle Berry Bandit<br />Affiliation(s): PWA (Puppies with Attitude)</h6>
         </td>
       </tr>
       <tr>
@@ -19,7 +19,7 @@ function PerpStats() {
           Dob
           Feb 09, 2022
         </td>
-        <td  colSpan={2} >
+        <td colSpan={2} >
           LIC. CLASS
           C
         </td>
@@ -39,7 +39,7 @@ function PerpStats() {
         <td>
           Ht 2'2"
         </td>
-        <td  colSpan={2} >
+        <td colSpan={2} >
           Wt 111
         </td>
         <td >
@@ -47,7 +47,7 @@ function PerpStats() {
         </td>
       </tr>
       <tr>
-        <td  colSpan={2} >
+        <td colSpan={2} >
           Issued 11/26/09
         </td>
         <td colSpan={2} >

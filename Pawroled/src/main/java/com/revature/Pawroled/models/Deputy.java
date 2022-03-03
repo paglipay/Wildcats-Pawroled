@@ -1,5 +1,6 @@
 package com.revature.Pawroled.models;
 
+import java.util.List;
 import java.util.Objects;
 
 import javax.persistence.CascadeType;
@@ -38,7 +39,7 @@ public class Deputy {
         name = "deputy_offender",
         joinColumns = { @JoinColumn(name = "deputy_id") },
         inverseJoinColumns = { @JoinColumn(name = "offender_id") })
-	
+	private List<Offender> offenders;
 	
 	
 	

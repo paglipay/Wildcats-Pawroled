@@ -1,0 +1,27 @@
+server:
+  port: 3000
+  servlet:
+    context-path: /Pawroled-boot
+    
+spring:
+  application: 
+    name: Pawroledboot-api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://jr-postgres-hospital.postgres.database.azure.com:5432/postgres?currentSchema=project
+    username: hospitalh@jr-postgres-hospital
+    password: FoolsGold69*
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "beans"
+          - "health"
+          - "info"

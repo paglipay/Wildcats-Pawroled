@@ -8,9 +8,9 @@ spring:
     name: Pawroledboot-api
   datasource:
     driver-class-name: org.postgresql.Driver
-    url:  jdbc:postgresql://jr-postgres-hospital.postgres.database.azure.com:5432/postgres?currentSchema=project
-    username: hospitalh@jr-postgres-hospital
-    password: FoolsGold69*
+    url:  URL
+    username: USERNAME
+    password: PASSWORD
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true

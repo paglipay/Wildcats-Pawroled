@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Modal, Button } from 'react-bootstrap'
+import { Modal, Button, Image, Table } from 'react-bootstrap'
 
 function WPModal(props) {
     const [show, setShow] = useState(false);
@@ -7,11 +7,12 @@ function WPModal(props) {
     return (
         <>
             <Button variant="primary" onClick={() => setShow(true)}>
-                Custom Width Modal
+                EVIDENCE: ITEM D - Video Footage
             </Button>
 
             <Modal
 
+                size="lg"
                 show={show}
                 onHide={() => setShow(false)}
                 dialogClassName="modal-900w"
@@ -19,14 +20,15 @@ function WPModal(props) {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="example-custom-modal-styling-title">
-                        Custom Modal Styling
+                        CASE ID #: PAW123456
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body sytle={{width:800}}>
+                <Modal.Body sytle={{ width: 800 }}>
                     <div>
 
                         {props.poster}
                     </div>
+
                     <p>
                         Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                         commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -36,6 +38,34 @@ function WPModal(props) {
                         reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
                         deleniti rem!
                     </p>
+
+                    <Table variant="dark" >
+                        {/* <tr>
+                            <td colSpan={2}>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/wLI0ISSPZ9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </td>
+                        </tr> */}
+                        <tr>
+                            <td colSpan={2}>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rD_Qe0JOW50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colSpan={2}>
+                                <Image style={{ width: 560 }} src={"map.png"} />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {/* <Image src='B9S9pQ.gif' style={{ width: 300 }} wrapped ui={false} /> */}
+                            </td>
+                            <td>
+                                {/* <Image src='LimitedFrankCollie-max-1mb.gif' style={{ width: 300 }} wrapped ui={false} /> */}
+                            </td>
+                        </tr>
+                    </Table>
                 </Modal.Body>
             </Modal>
         </>

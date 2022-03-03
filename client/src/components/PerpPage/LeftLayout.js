@@ -24,7 +24,7 @@ function LeftLayout(props) {
     ]);
 
     const [psychologicalProfile, setPsychologicalProfile] = useState(
-`Very "Naughty";
+        `Very "Naughty";
 (OCD) Obsesive Compulsive Disorder - for Chew Toy;
 Extremely food motivated;
 Constantly Demands for Belly Rubs;
@@ -66,7 +66,7 @@ Advise: Approach with Caution`);
                                 <Image src={"pawprints.png"} style={{ width: '100%' }} wrapped ui={false} />
                             </Col>
                             <Col>
-                                <PerpStats />
+                                <PerpStats data={props.data} />
                                 <Table variant="dark" style={{ color: 'white' }}>
                                     <tr>
                                         <td>
@@ -74,9 +74,9 @@ Advise: Approach with Caution`);
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style={{ textAlign: 'left', fontSize:14, backgroundColor:'gray', color:'black', lineHeight: 1, padding:11 }}>                                        
+                                        <td style={{ textAlign: 'left', fontSize: 14, backgroundColor: 'gray', color: 'black', lineHeight: 1, padding: 11 }}>
                                             {/* <pre style={{ fontSize: 12, textAlign: 'left', backgroundColor: '#474747', lineHeight: 1}}> */}
-                                                {psychologicalProfile}
+                                            {psychologicalProfile}
                                             {/* </pre> */}
                                         </td>
                                     </tr>

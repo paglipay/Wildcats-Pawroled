@@ -1,23 +1,22 @@
 import React from 'react'
 import { Table } from 'react-bootstrap';
 
-function PerpStats() {
+function PerpStats({ data }) {
   return (
     <Table style={{ color: 'white', textAlign: 'left' }}>
       <tr>
         <td colSpan={4}>
-          <h3>NIKOLAI ONDREJKO</h3>
+          <h3>{data.fullname}</h3>
         </td>
       </tr>
       <tr>
         <td colSpan={4}>
-          <h6>Alias: Dinggle Berry Bandit<br />Affiliation(s): PWA (Puppies with Attitude)</h6>
+          <h6>Alias: {data.fullname}<br />Affiliation(s): PWA (Puppies with Attitude)</h6>
         </td>
       </tr>
       <tr>
         <td colSpan={2}>
-          Dob
-          Feb 09, 2022
+          Dob {data.dob}
         </td>
         <td colSpan={2} >
           LIC. CLASS
@@ -26,21 +25,21 @@ function PerpStats() {
       </tr>
       <tr>
         <td>
-          Sex M
+          Sex {data.sex}
         </td>
         <td colSpan={2} >
-          Hair Brn
+          Hair {data.hair}
         </td>
         <td>
-          Eyes Brn
+          Eyes {data.eyes}
         </td>
       </tr>
       <tr>
         <td>
-          Ht 2'2"
+          Ht {data.ht}
         </td>
         <td colSpan={2} >
-          Wt 111
+          Wt {data.wt}
         </td>
         <td >
           Dl 123123

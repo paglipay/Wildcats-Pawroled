@@ -22,6 +22,13 @@ function LeftLayout(props) {
         'date',
         'offense'
     ]);
+
+    const [psychologicalProfile, setPsychologicalProfile] = useState(
+`Very "Naughty";
+(OCD) Obsesive Compulsive Disorder - for Chew Toy;
+Extremely food motivated;
+Constantly Demands for Belly Rubs;
+Advise: Approach with Caution`);
     return (
         <Container style={{ backgroundColor: 'black', padding: 20, border: 10, borderColor: 'gray', height: '100%', color: 'white' }}>
             <Row>
@@ -60,21 +67,24 @@ function LeftLayout(props) {
                             </Col>
                             <Col>
                                 <PerpStats />
-                                <Table striped hover variant="dark" size="sm">
-                                    <thead>
-                                        <tr>
-                                            {hProps.map((c, j) => (<th key={j}>{c}</th>))}
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {data && data.map((e, i) => {
-                                            return (<tr key={i}>
-                                                {hProps.map((c, j) => (<td key={`${c}-${j}`}>{e[c]}</td>))}
-                                            </tr>)
-                                        })}
-                                    </tbody>
+
+                                <Table variant="dark" style={{ color: 'white' }}>
+                                    <tr>
+                                        <td>
+                                            Psychological Profile
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style={{ textAlign: 'left' }}>                                        
+                                            {/* <pre style={{ fontSize: 12, textAlign: 'left', backgroundColor: '#474747', lineHeight: 1}}> */}
+                                                {psychologicalProfile}
+                                            {/* </pre> */}
+                                        </td>
+                                    </tr>
                                 </Table>
-                                <PerpOffenses /><Table striped hover variant="dark" size="sm">
+
+                                <PerpOffenses />
+                                <Table striped hover variant="dark" size="sm">
                                     <thead>
                                         <tr>
                                             {hProps.map((c, j) => (<th key={j}>{c}</th>))}

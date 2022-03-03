@@ -1,4 +1,4 @@
-package com.revature.models;
+package com.revature.Pawroled.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
